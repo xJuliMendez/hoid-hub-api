@@ -9,6 +9,6 @@ import java.util.List;
 public class TestController {
     @GetMapping("/hello-world")
     public List<String> helloWorld() {
-        return List.of("Hello", "World");
+        return List.of("Hello", "world");
     }
 }
